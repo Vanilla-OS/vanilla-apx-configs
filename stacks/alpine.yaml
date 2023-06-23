@@ -1,0 +1,5 @@
+name: alpine
+base: alpine:latest
+packages: []
+pkgmanager: apk
+builtin: false
