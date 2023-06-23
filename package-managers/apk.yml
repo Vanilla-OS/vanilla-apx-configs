@@ -1,0 +1,13 @@
+name: apk
+needsudo: true
+cmdautoremove: none
+cmdclean: none
+cmdinstall: add
+cmdlist: list
+cmdpurge: del
+cmdremove: del
+cmdsearch: search
+cmdshow: info
+cmdupdate: update
+cmdupgrade: upgrade --available
+builtin: true
