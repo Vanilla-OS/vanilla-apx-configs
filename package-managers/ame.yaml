@@ -1,0 +1,13 @@
+name: ame
+needsudo: false
+cmdautoremove: -Yc
+cmdclean: -Sc
+cmdinstall: -S
+cmdlist: -Q
+cmdpurge: -Rn
+cmdremove: -R
+cmdsearch: -Ss
+cmdshow: -Si
+cmdupdate: -Syu
+cmdupgrade: -Syu
+builtin: true
