@@ -1,0 +1,5 @@
+name: opensuse
+base: opensuse:latest
+packages: []
+pkgmanager: zypper
+builtin: false
