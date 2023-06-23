@@ -1,0 +1,5 @@
+name: vanilla-dev
+base: registry.vanillaos.org/vanillaos/dev:main
+packages: []
+pkgmanager: apt
+builtin: false
