@@ -1,0 +1,13 @@
+name: dnf
+needsudo: true
+cmdautoremove: autoremove
+cmdclean: clean
+cmdinstall: install
+cmdlist: list
+cmdpurge: remove
+cmdremove: remove
+cmdsearch: search
+cmdshow: info
+cmdupdate: upgrade --refresh
+cmdupgrade: upgrade
+builtin: true
