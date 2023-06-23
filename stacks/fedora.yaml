@@ -1,0 +1,5 @@
+name: fedora
+base: fedora:latest
+packages: []
+pkgmanager: dnf
+builtin: false
