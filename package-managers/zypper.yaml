@@ -1,0 +1,13 @@
+name: zypper
+needsudo: true
+cmdautoremove: none
+cmdclean: clean
+cmdinstall: install
+cmdlist: pa
+cmdpurge: remove
+cmdremove: remove
+cmdsearch: search
+cmdshow: info
+cmdupdate: update
+cmdupgrade: update
+builtin: true
