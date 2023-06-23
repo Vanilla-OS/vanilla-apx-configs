@@ -1,0 +1,5 @@
+name: crystal-linux
+base: registry.getcryst.al/crystal/misc/docker:latest
+packages: []
+pkgmanager: ame
+builtin: false
