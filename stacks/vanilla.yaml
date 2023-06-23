@@ -1,0 +1,5 @@
+name: vanilla
+base: registry.vanillaos.org/vanillaos/pico:main
+packages: []
+pkgmanager: apt
+builtin: false
