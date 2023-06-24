@@ -2,4 +2,4 @@ name: ubuntu
 base: ubuntu:latest
 packages: []
 pkgmanager: apt
-builtin: false
+builtin: true
