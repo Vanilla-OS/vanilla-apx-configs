@@ -1,5 +1,5 @@
 name: vanilla
-base: registry.vanillaos.org/vanillaos/pico:main
+base: ghcr.io/vanilla-os/pico:main
 packages: []
 pkgmanager: apt
 builtin: true

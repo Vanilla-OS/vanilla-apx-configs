@@ -1,5 +1,5 @@
 name: vanilla-dev
-base: registry.vanillaos.org/vanillaos/dev:main
+base: ghcr.io/vanilla-os/dev:main
 packages: []
 pkgmanager: apt
 builtin: true
