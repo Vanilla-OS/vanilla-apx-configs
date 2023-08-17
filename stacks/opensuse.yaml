@@ -1,5 +1,5 @@
 name: opensuse
-base: opensuse:latest
+base: registry.opensuse.org/opensuse/tumbleweed:latest
 packages: []
 pkgmanager: zypper
 builtin: true
