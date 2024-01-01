@@ -1,13 +1,14 @@
 name: dnf
+model: 2
 needsudo: true
-cmdautoremove: autoremove
-cmdclean: clean
-cmdinstall: install
-cmdlist: list
-cmdpurge: remove
-cmdremove: remove
-cmdsearch: search
-cmdshow: info
-cmdupdate: upgrade --refresh
-cmdupgrade: upgrade
+cmdautoremove: dnf autoremove
+cmdclean: dnf clean
+cmdinstall: dnf install
+cmdlist: dnf list
+cmdpurge: dnf remove
+cmdremove: dnf remove
+cmdsearch: dnf search
+cmdshow: dnf info
+cmdupdate: dnf upgrade --refresh
+cmdupgrade: dnf upgrade
 builtin: true

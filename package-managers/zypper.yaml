@@ -1,13 +1,14 @@
 name: zypper
+model: 2
 needsudo: true
-cmdautoremove: none
-cmdclean: clean
-cmdinstall: install
-cmdlist: pa
-cmdpurge: remove
-cmdremove: remove
-cmdsearch: search
-cmdshow: info
-cmdupdate: update
-cmdupgrade: update
+cmdautoremove: zypper
+cmdclean: zypper clean
+cmdinstall: zypper install
+cmdlist: zypper pa
+cmdpurge: zypper remove
+cmdremove: zypper remove
+cmdsearch: zypper search
+cmdshow: zypper info
+cmdupdate: zypper update
+cmdupgrade: zypper update
 builtin: true

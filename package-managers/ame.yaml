@@ -1,13 +1,14 @@
 name: ame
+model: 2
 needsudo: false
-cmdautoremove: -Yc
-cmdclean: -Sc
-cmdinstall: -S
-cmdlist: -Q
-cmdpurge: -Rn
-cmdremove: -R
-cmdsearch: -Ss
-cmdshow: -Si
-cmdupdate: -Syu
-cmdupgrade: -Syu
+cmdautoremove: ame -Yc
+cmdclean: ame -Sc
+cmdinstall: ame -S
+cmdlist: ame -Q
+cmdpurge: ame -Rn
+cmdremove: ame -R
+cmdsearch: ame -Ss
+cmdshow: ame -Si
+cmdupdate: ame -Syu
+cmdupgrade: ame -Syu
 builtin: true
