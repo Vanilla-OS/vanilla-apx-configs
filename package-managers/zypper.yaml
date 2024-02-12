@@ -4,11 +4,11 @@ needsudo: true
 cmdautoremove: zypper
 cmdclean: zypper clean
 cmdinstall: zypper install
-cmdlist: zypper pa
+cmdlist: zypper pa --installed-only
 cmdpurge: zypper remove
 cmdremove: zypper remove
 cmdsearch: zypper search
 cmdshow: zypper info
-cmdupdate: zypper update
-cmdupgrade: zypper update
+cmdupdate: zypper dup
+cmdupgrade: zypper dup
 builtin: true
