@@ -1,5 +1,0 @@
-name: crystal-linux
-base: registry.gitlab.com/crystal-linux/misc/docker:latest
-packages: []
-pkgmanager: ame
-builtin: true
