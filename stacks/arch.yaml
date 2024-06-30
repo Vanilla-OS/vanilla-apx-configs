@@ -1,0 +1,5 @@
+name: arch
+base: ghcr.io/archlinux/archlinux:multilib-devel
+packages: []
+pkgmanager: pacman
+builtin: true

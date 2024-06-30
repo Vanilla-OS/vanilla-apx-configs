@@ -1,0 +1,14 @@
+name: pacman
+model: 2
+needsudo: true
+cmdautoremove: pacman -Qdtq
+cmdclean: pacman -Sc
+cmdinstall: pacman -S
+cmdlist: pacman -Qe
+cmdpurge: pacman -Rns
+cmdremove: pacman -R
+cmdsearch: pacman -Ss
+cmdshow: pacman -Si
+cmdupdate: pacman -Sy
+cmdupgrade: pacman -Syu
+builtin: true
