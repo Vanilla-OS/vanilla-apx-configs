@@ -1,0 +1,5 @@
+name: opensuse-leap-15.6
+base: registry.opensuse.org/opensuse/leap:15.6
+packages: []
+pkgmanager: zypper
+builtin: true
