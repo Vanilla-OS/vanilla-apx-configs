@@ -1,0 +1,5 @@
+name: debian
+base: debian:latest
+packages: []
+pkgmanager: apt
+builtin: true
