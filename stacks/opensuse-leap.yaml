@@ -1,0 +1,5 @@
+name: opensuse-leap
+base: registry.opensuse.org/opensuse/leap:latest
+packages: []
+pkgmanager: zypper
+builtin: true
