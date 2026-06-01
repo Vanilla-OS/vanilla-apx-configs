@@ -1,5 +1,20 @@
 name: vanilla-dev
-base: ghcr.io/vanilla-os/dev:main
-packages: []
+base: ghcr.io/vanilla-os/pico:main
+packages:
+  - git
+  - nano
+  - golang-go
+  - rust-all
+  - cmake
+  - meson
+  - debhelper
+  - appstream-util
+  - desktop-file-utils
+  - libadwaita-1-dev
+  - libbtrfs-dev
+  - libdevmapper-dev
+  - libgpgme-dev
+  - libvte-2.91-gtk4-dev
+  - python3-podman
 pkgmanager: apt
 builtin: true
