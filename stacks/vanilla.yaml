@@ -1,5 +1,5 @@
 name: vanilla
-base: ghcr.io/vanilla-os/pico:main
+base: ghcr.io/vanilla-os/pico:latest
 packages: []
 pkgmanager: apt
 builtin: true

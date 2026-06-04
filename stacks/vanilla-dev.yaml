@@ -1,5 +1,5 @@
 name: vanilla-dev
-base: ghcr.io/vanilla-os/pico:main
+base: ghcr.io/vanilla-os/pico:latest
 packages:
   - git
   - nano
